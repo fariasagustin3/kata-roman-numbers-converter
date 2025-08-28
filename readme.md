@@ -127,5 +127,29 @@ revertida al número original.
 
 1. Clonar el repositorio
 ```declarative
-git clone 
+git clone https://github.com/fariasagustin3/kata-roman-numbers-converter.git
+cd kata-roman-numbers-converter
+```
+2. Compilar el proyecto
+```declarative
+mvn clean compile
+```
+3. Ejecutar tests
+```declarative
+# Ejecutar todos los tests
+mvn test
+
+# Ejecutar solo tests unitarios
+mvn test -Dtest=RomanNumberConverterServiceTest
+
+# Ejecutar solo tests de integración
+mvn test -Dtest=RomanNumberConverterServiceIntegrationTest
+```
+4. Construir artefacto
+```declarative
+mvn clean package
+```
+5. Ejecutar aplicación
+```declarative
+mvn spring-boot:run
 ```
