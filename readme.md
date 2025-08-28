@@ -125,6 +125,13 @@ revertida al número original.
 
 ## Instrucciones de construcción y ejecución
 
+### Requisitos técnicos
+* Maven
+* GIT
+* JDK 21
+
+### Pasos para ejecutar el proyecto localmente
+
 1. Clonar el repositorio
 ```declarative
 git clone https://github.com/fariasagustin3/kata-roman-numbers-converter.git
